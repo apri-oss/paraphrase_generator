@@ -23,11 +23,6 @@ Disediakan oleh: [Jakarta Research](https://huggingface.co/jakartaresearch)
 ```json
 [
   {
-    "sentence1": "Amrozi menuduh saudaranya, yang dia sebut \"saksi\", dengan sengaja mendistorsi buktinya.",
-    "sentence2": "Mengacu padanya hanya sebagai \"saksi\", Amrozi menuduh saudaranya dengan sengaja mendistorsi buktinya.",
-    "label": 1
-  },
-  {
     "sentence1": "Mereka telah menerbitkan iklan di internet pada 10 Juni, menawarkan kargo untuk dijual, tambahnya.",
     "sentence2": "Pada 10 Juni, pemilik kapal telah menerbitkan iklan di internet, menawarkan bahan peledak untuk dijual.",
     "label": 1
