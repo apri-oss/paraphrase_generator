@@ -19,6 +19,7 @@ Disediakan oleh: [Jakarta Research](https://huggingface.co/jakartaresearch)
 - **`label`**: 1 jika kalimat merupakan parafrase, 0 jika bukan
 
 ## 🔍 Contoh Isi Dataset (Format JSON)
+Note : Dataset yang diupload di github ini merupakan dataset yang sudah dilakukan preprocessing sehingga lebl yang ada hanyalah label 1
 
 ```json
 [
