@@ -1,13 +1,13 @@
 # ID Paraphrase Detection Dataset
 
-## 📂 Nama Dataset
+## Nama Dataset
 **Indonesian Paraphrase Detection Dataset**  
 Disediakan oleh: [Jakarta Research](https://huggingface.co/jakartaresearch)
 
 ## 🔗 Link Asli Dataset
 [https://huggingface.co/datasets/jakartaresearch/id-paraphrase-detection](https://huggingface.co/datasets/jakartaresearch/id-paraphrase-detection)
 
-## 📊 Informasi Statistik Dataset Asli
+## Informasi Statistik Dataset Asli
 
 | Split       | Jumlah Baris | Fitur                          |
 |-------------|--------------|--------------------------------|
