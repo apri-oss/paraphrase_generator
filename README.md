@@ -1,5 +1,10 @@
 # ID Paraphrase Detection Dataset
 
+## Task Mini Transformer
+**Deskripsi Task**  
+Paraphrase Generator yang bertujuan untuk menghasilkan kalimat baru dengan makna yang sama atau mirip dari kalimat yang diberikan/input.
+
+
 ## Nama Dataset
 **Indonesian Paraphrase Detection Dataset**  
 Disediakan oleh: [Jakarta Research](https://huggingface.co/jakartaresearch)
