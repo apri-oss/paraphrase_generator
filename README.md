@@ -1,4 +1,4 @@
-# ID Paraphrase Detection Dataset
+# Quora Paraphrasing Id
 
 ## Task Mini Transformer
 **Deskripsi Task**  
@@ -6,36 +6,33 @@ Paraphrase Generator yang bertujuan untuk menghasilkan kalimat baru dengan makna
 
 
 ## Nama Dataset
-**Indonesian Paraphrase Detection Dataset**  
-Disediakan oleh: [Jakarta Research](https://huggingface.co/jakartaresearch)
+**Quora Paraphrasing Id**  
+Disediakan oleh: [Quora Paraphrasing Id](https://github.com/louisowen6/quora_paraphrasing_id)
 
 ## 🔗 Link Asli Dataset
-[https://huggingface.co/datasets/jakartaresearch/id-paraphrase-detection](https://huggingface.co/datasets/jakartaresearch/id-paraphrase-detection)
+[https://github.com/louisowen6/quora_paraphrasing_id](https://github.com/louisowen6/quora_paraphrasing_id)
 
 ## Informasi Statistik Dataset Asli
 
 | Split       | Jumlah Baris | Fitur                          |
 |-------------|--------------|--------------------------------|
-| Train       | 4,076        | `sentence1`, `sentence2`, `label` |
-| Validation  | 1,725        | `sentence1`, `sentence2`, `label` |
+| Train       | 134,084      | `question_1`, `question_2`     |
+| Validation  | 14,927       | `question_1`, `question_2`     |
 
-- **`sentence1`**: Kalimat pertama
-- **`sentence2`**: Kalimat kedua
-- **`label`**: 1 jika kalimat merupakan parafrase, 0 jika bukan
+- **`question_1`**: Kalimat pertama
+- **`question_2`**: Kalimat kedua
 
 ## 🔍 Contoh Isi Dataset (Format JSON)
-Note : Dataset yang diupload di github ini merupakan dataset yang sudah dilakukan preprocessing sehingga lebl yang ada hanyalah label 1
+Note : Dataset yang diupload di github ini merupakan dataset yang sudah dilakukan preprocessing untuk keperluan tugas ini
 
 ```json
 [
   {
-    "sentence1": "Mereka telah menerbitkan iklan di internet pada 10 Juni, menawarkan kargo untuk dijual, tambahnya.",
-    "sentence2": "Pada 10 Juni, pemilik kapal telah menerbitkan iklan di internet, menawarkan bahan peledak untuk dijual.",
-    "label": 1
+    "question_1": "Apa beberapa teknik yoga yang baik untuk menurunkan berat badan?",
+    "question_2": "Apa asana yoga untuk menurunkan berat badan?"
   },
   {
-    "sentence1": "Saham naik $ 2,11, atau sekitar 11 persen, ditutup Jumat dengan $ 21,51 di New York Stock Exchange.",
-    "sentence2": "Saham PG&E Corp. melonjak $ 1,63 atau 8 persen menjadi $ 21,03 di New York Stock Exchange pada hari Jumat.",
-    "label": 1
+    "question_1": "Bagaimana musik memicu emosi?",
+    "question_2": "Mengapa musik bertanggung jawab untuk memicu emosi?"
   }
 ]
